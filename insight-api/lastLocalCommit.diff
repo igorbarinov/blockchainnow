@@ -1,0 +1,35 @@
+diff --git a/lib/HistoricSync.js b/lib/HistoricSync.js
+index d38f3d4..84a49e6 100644
+--- a/lib/HistoricSync.js
++++ b/lib/HistoricSync.js
+@@ -19,6 +19,7 @@ var error = logger.error;
+ var logstashInfo = logstash.info;
+ var PERCENTAGE_TO_START_FROM_RPC = 0.96;
+ 
++var Rpc = imports.rpc || require('./Rpc');
+ // TODO  TODO TODO
+ //var PERCENTAGE_TO_START_FROM_RPC = 0.98;
+ 
+@@ -151,7 +152,21 @@ HistoricSync.prototype.getBlockFromRPC = function(cb) {
+     } else {
+       blockInfo = null;
+     }
+-    logstashInfo(blockInfo);
++    //logstashInfo(blockInfo.tx);
++    //logstashInfo(blockInfo.tx[0]);
++    if (blockInfo.tx != undefined && blockInfo.tx != null) {
++       for (var i = 0; i < blockInfo.tx.length; i ++) {
++          if (blockInfo.tx[i] != undefined && blockInfo.tx[i] != "") { 
++             Rpc.getTxInfo(blockInfo.tx[i], function(err, txInfo) {
++               if (!err) {
++                  if (txInfo != undefined)
++                       logstashInfo(txInfo);
++               }
++             }); 
++          }
++       }
++    }
++    //logstashInfo(blockInfo);
+     return cb(null, blockInfo);
+   });
+ };
