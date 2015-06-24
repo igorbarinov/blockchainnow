@@ -8,9 +8,9 @@ Course project for Insight Data Engineering program
 # Technology Stack
 - [Bitcoin Core](https://bitcoin.org/en/download) Bitcoin Core
 - [Insight API](https://github.com/bitpay/insight-api) A bitcoin blockchain API for web wallets
-- [Apache Kafka](http://kafka.apache.org)
-- [kafka-node](https://github.com/SOHU-Co/kafka-node) Kafka-node is a Node.js client with Zookeeper integration for Apache Kafka 0.8.1 and later
-- [Logstash](https://www.elastic.co/products/logstash)Collect, Parse, Transform Logs
+- [Apache Kafka](http://kafka.apache.org) A high-throughput distributed messaging system
+- [kafka-node](https://github.com/SOHU-Co/kafka-node) Node.js client with Zookeeper integration for Apache Kafka
+- [Logstash](https://www.elastic.co/products/logstash) Collect, Parse, Transform Logs
 - [Elastic Search](https://www.elastic.co/products/elasticsearch) Search & Analyze Data in Real Time
 - [Meteor](http://www.meteor.com) The JavaScript App Platform
 
