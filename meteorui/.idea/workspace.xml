@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8379e2f7-631a-43bc-bc12-c52d17063a5e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular-animate/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular-animate/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular-animate/angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular-animate/angular-animate.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular-animate/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular-animate/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular/angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/angular/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/elasticsearch/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/elasticsearch/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/elasticsearch/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/elasticsearch/elasticsearch.angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/bower_components/elasticsearch/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/css/calaca.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/js/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/js/controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../UI/js/services.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../add" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zeppelin/Dockerfile" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../elasticsearch/index.html" afterPath="$PROJECT_DIR$/../elasticsearch/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../logstash/kafka.conf" afterPath="$PROJECT_DIR$/../logstash/kafka.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meteorui.html" afterPath="$PROJECT_DIR$/meteorui.html" />
     </list>
     <ignored path="meteorui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +26,18 @@
       <file leaf-file-name="meteorui.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/meteorui.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0729927">
-              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.52554744">
+              <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meteorui.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meteorui.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -244,10 +222,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1400" height="781" extended-state="1" />
+    <frame x="20" y="43" width="1400" height="781" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299566" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299566" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -314,10 +292,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/meteorui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/meteorui.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0729927">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.52554744">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
           <folding />
         </state>
       </provider>
