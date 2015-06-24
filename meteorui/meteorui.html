@@ -1,0 +1,86 @@
+<head>
+  <title>Blockchain Now</title>
+    <style>
+        /* CSS declarations go here */
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+<main>
+<!-- Navigation -->
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Blockchain Now</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- End of Navigation -->
+<br/>
+
+<div class="row">
+    <div class="col s12">
+        <ul class="tabs">
+            <li class="tab col s3"><a class="active" href="#test1">Search</a></li>
+           <li class="tab col s3"><a href="#test2">Slides</a></li>
+            <li class="tab col s3 disabled"><a  href="#test3">Charts</a></li>
+
+        </ul>
+    </div>
+    <!-- Search -->
+    <div class="col s12 m4 l2"><span>&nbsp;</span></div>
+    <div id="test1" class="col s12 l8 m4" align="center">
+        <br/><br/>
+        <form class="new-task">
+            <input type="text" name="text" placeholder="Type bitcoin address" />
+        </form>
+    </div>
+
+    <!-- Charts -->
+    <div id="test3" class="col s12">Test 3</div>
+
+    <!--  Slides -->
+    <div id="test2" class="col s12">
+        <center>
+            <br/>
+
+        <iframe src="http://www.slideshare.net/slideshow/embed_code/key/4Cb1dBG2iMlo2q" width="576" height="481" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+        </center>
+    </div>
+
+</div>
+</main>
+
+<!-- Footer -->
+<footer class="page-footer">
+
+
+    <div class="footer-copyright">
+        <div class="container">
+            © 2015 Igor Barinov
+            <a class="grey-text text-lighten-4 right" href="http://insightdataengineering.com">@ Insight Data Engineering</a>
+        </div>
+    </div>
+</footer>
+<!-- End of footer -->
+
+<!--<h1>Welcome to Meteor!</h1>
+ {{> hello}} -->
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+

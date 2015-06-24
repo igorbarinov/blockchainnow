@@ -1,0 +1,54 @@
+<html>
+<head>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+ 
+<body>
+<script>
+
+    $(function() {
+        $("#keyword").autocomplete({
+            source: function(request, response) {
+                var postData = { };
+               /* var wildcard = { "name": "*" + request.term.toLowerCase() + "*" };
+                var postData = {
+                    "query": { "wildcard": wildcard },
+                    "fields": ["name", "_id"]
+                };*/
+                $.ajax({
+                    url: "http://192.168.33.10:9200/_search",
+                    type: "GET",
+                    dataType: "JSON",
+                    data: JSON.stringify(postData),
+                    success: function(data) {
+                        response($.map(data.hits.hits, function(item) {
+                            return {
+                                label: item.fields.name,
+                                id: item.fields._id
+                            }
+                        }));
+                    },
+                });
+            },
+            minLength: 2
+        })
+    });
+
+
+</script>
+ 
+ 
+<div class="demo">
+    <h1>Autocomplete using cross origin resource sharing with elasticsearch</h1>
+    <br>
+ 
+    <div class="ui-widget">
+        <label for="keyword">Keyword: </label>
+        <input id="keyword">
+    </div>
+ 
+ 
+</body>
+</html>
