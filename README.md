@@ -17,12 +17,14 @@ From **meteorui/** start meteor server
 ```
 meteor
 ```
-To publish to your hosting:
+Open [http://localhost:3000](http://localhost:3000) in you favorite Google Chrome browser
+
+When you will ready to publish to your hosting:
 ```
 meteor publish $(echo "example")
 ```
 change **example** to any desired (and free) hostname in *.meteor.com domain
-e.g. blockchainnow.meteor.com
+e.g. [http://blockchainnow.meteor.com](http://blockchainnow.meteor.com)
 
 # Technology Stack
 - [Bitcoin Core](https://bitcoin.org/en/download) Bitcoin Core
@@ -39,3 +41,8 @@ e.g. blockchainnow.meteor.com
 - [Slides](https://www.slideshare.net/secret/4Cb1dBG2iMlo2q)
 - [Kafka Manager](http://bitcoind.blocknotary.com:9000/) 
 - [Elastic Sample Query](http://search.blocknotary.com:9200/_search?q=txid:d5f2d21453a6f0e67b5c42959c9700853e4c4d46fa7519d1cc58e77369c893f2&pretty=true)
+
+
+Important:
+----------
+Please star [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering) repository
