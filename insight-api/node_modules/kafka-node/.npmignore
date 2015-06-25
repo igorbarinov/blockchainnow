@@ -1,0 +1,6 @@
+node_modules
+*.swp
+*.log
+*.swo
+test/data.txt
+docs
