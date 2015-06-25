@@ -6,6 +6,24 @@ Agenda: End-to-end pipeline for the bitcoin analytics. Reach UI with reactive se
 ![UI](https://raw.githubusercontent.com/igorbarinov/blockchainnow/master/presentation/blockchain2.png)
 Course project for Insight Data Engineering program
 
+# How to install
+TL;DR
+
+Git clone the repository
+```
+git clone git@github.com:igorbarinov/blockchainnow.git
+```
+From **meteorui/** start meteor server
+```
+meteor
+```
+To publish to your hosting:
+```
+meteor publish $(echo "example")
+```
+change **example** to any desired (and free) hostname in *.meteor.com domain
+e.g. blockchainnow.meteor.com
+
 # Technology Stack
 - [Bitcoin Core](https://bitcoin.org/en/download) Bitcoin Core
 - [Insight API](https://github.com/bitpay/insight-api) A bitcoin blockchain API for web wallets
