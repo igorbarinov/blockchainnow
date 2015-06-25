@@ -4,7 +4,6 @@ Blockchain Now
 Agenda: End-to-end pipeline for the bitcoin analytics. Reach UI with reactive search and charts.
 
 ![UI](https://raw.githubusercontent.com/igorbarinov/blockchainnow/master/presentation/blockchain.png)
-
 Course project for Insight Data Engineering program
 
 # Technology Stack
@@ -21,4 +20,4 @@ Course project for Insight Data Engineering program
 - [Blockchain Now](http://blockchain.itsbeta.com) "Blockchain Now" website
 - [Slides](https://www.slideshare.net/secret/4Cb1dBG2iMlo2q)
 - [Kafka Manager](http://bitcoind.blocknotary.com:9000/) 
-- [Elastic Sample Query](http://search.blocknotary.com:9200/_search?q=txid:d5f2d21453a6f0e67b5c42959c9700853e4c4d46fa7519d1cc58e77369c893f2)
+- [Elastic Sample Query](http://search.blocknotary.com:9200/_search?q=txid:d5f2d21453a6f0e67b5c42959c9700853e4c4d46fa7519d1cc58e77369c893f2&pretty=true)
