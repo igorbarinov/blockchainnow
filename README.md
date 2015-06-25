@@ -3,7 +3,7 @@ Blockchain Now
 
 Agenda: End-to-end pipeline for the bitcoin analytics. Reach UI with reactive search and charts.
 
-![UI](https://raw.githubusercontent.com/igorbarinov/blockchainnow/master/presentation/blockchain.png)
+![UI](https://raw.githubusercontent.com/igorbarinov/blockchainnow/master/presentation/blockchain2.png)
 Course project for Insight Data Engineering program
 
 # Technology Stack
