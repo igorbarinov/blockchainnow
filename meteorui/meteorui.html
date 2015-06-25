@@ -1,22 +1,16 @@
 <head>
   <title>Blockchain Now</title>
     <style>
-        /* CSS declarations go here */
-        body {
-            display: flex;
-            min-height: 100vh;
-            flex-direction: column;
-        }
 
-        main {
-            flex: 1 0 auto;
-        }
     </style>
+
+    <!-- ### EON -->
 
     <script type="text/javascript" src="http://pubnub.github.io/eon/lib/eon.js"></script>
     <link type="text/css" rel="stylesheet" href="http://pubnub.github.io/eon/lib/eon.css" />
 
-    
+    <!-- ### /EON -->
+
 </head>
 
 <body>
@@ -34,6 +28,7 @@
 <!-- End of Navigation -->
 <br/>
 
+    <div class="container">
 <div class="row">
     <div class="col s12">
         <ul class="tabs">
@@ -44,17 +39,88 @@
         </ul>
     </div>
     <!-- Search -->
-    <div class="col s12 m4 l2"><span>&nbsp;</span></div>
-    <div id="test1" class="col s12 l8 m4" align="center">
-        <br/><br/>
-        <form class="new-task">
-            <input type="text" name="text" placeholder="Type anything" />
-        </form>
+    <div id="test1" class="col s12" align="center">
+        <br/>
+
+        <div class="row">
+            <div class="input-field col s12">
+                <input value="" id="first_name2" type="text" class="validate">
+                <label class="active" for="first_name2">Type any field of the bitcoin transaction:</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Switch -->
+
+
+        <div class="col s12">
+
+          <span class="white-text">
+
+              <a class="waves-effect waves-light btn"><i class="material-icons right"></i>Search</a>
+
+          </span>
+
+        </div>
+
     </div>
+
+
+</div>
+
+</div>
 
     <!-- Charts -->
     <div id="test2" class="col s12">
 
+        <script>
+            var channel = "c3-spline" + Math.random();
+            eon.chart({
+                history: true,
+                channel: channel,
+                flow: true,
+                generate: {
+                    bindto: '#chart',
+                    data: {
+                        x: 'x',
+                        labels: false
+                    },
+                    axis : {
+                        x : {
+                            type : 'timeseries',
+                            tick: {
+                                format: '%H:%M:%S'
+                            }
+                        }
+                    }
+                }
+            });
+        </script>
+
+        <script>
+            var pubnub = PUBNUB.init({
+                publish_key: 'demo',
+                subscribe_key: 'demo'
+            });
+            setInterval(function(){
+
+                pubnub.publish({
+                    channel: channel,
+                    message: {
+                        columns: [
+                            ['x', new Date().getTime()],
+                            ['Bitcoin Live', Math.floor(Math.random() * 99)],
+                            ['Bitcoin Testnet', Math.floor(Math.random() * 99)],
+                            ['Lightcoin', Math.floor(Math.random() * 99)],
+                            ['Dogecoin', Math.floor(Math.random() * 99)]
+                        ]
+                    }
+                });
+
+            }, 1000);
+        </script>
+
+        <div id="chart"></div>
 
     </div>
 
@@ -68,27 +134,64 @@
     </div>
 
 </div>
+
 </main>
 
-<!-- Footer -->
+
 <footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Blockchain Now</h5>
+                <p class="grey-text text-lighten-4">Search engine and analytics for the blockchain </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="http://search.blocknotary.com:9200/_search?q=txid:67d6072a2a7b129e1838424b13e0aedcaadba34608b222636d9576edd7e15a7a&pretty=true">Sample Query</a></li>
+                    <li><a class="grey-text text-lighten-3" href="http://bitcoind.blocknotary.com:9000/">Kafka Manager</a></li>
 
-
+                </ul>
+            </div>
+        </div>
+    </div>
     <div class="footer-copyright">
         <div class="container">
-            © 2015 Igor Barinov
-            <a class="grey-text text-lighten-4 right" href="http://insightdataengineering.com">@ Insight Data Engineering</a>
+            <a class="grey-text text-lighten-4 left" href="https://github.com/igorbarinov/">2015 Igor Barinov</a>
+            <a class="grey-text text-lighten-4 right" href="http://insightdataengineering.com">Created @Insight</a>
         </div>
     </div>
 </footer>
-<!-- End of footer -->
 
-<!--<h1>Welcome to Meteor!</h1>
- {{> hello}} -->
+
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="searchTpl">
+    <div class="search-input">
+        {{> esInput index="players" placeholder="Search..." }}
+    </div>
+
+    {{#ifEsInputIsEmpty index="players"}}
+        <div>Search for players</div>
+    {{/ifEsInputIsEmpty}}
+
+    {{#ifEsIsSearching index="players"}}
+        <div>Loading...</div>
+    {{else}}
+        <div class="results-wrapper">
+            {{#esEach index="players"}}
+                {{> player}}
+            {{/esEach}}
+        </div>
+
+        {{> esLoadMoreButton index="players"}}
+    {{/ifEsIsSearching}}
+
+    {{#ifEsHasNoResults index="players"}}
+        <div class="no-results">No results found!</div>
+    {{/ifEsHasNoResults}}
 </template>
+
+
+
 

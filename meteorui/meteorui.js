@@ -9,9 +9,8 @@ if (Meteor.isClient) {
   });
 
   Template.hello.events({
-    'click button': function () {
-      // increment the counter when button is clicked
-      Session.set('counter', Session.get('counter') + 1);
+    'keyup input': function (event) {
+      Session.set("name", event.target.value);
     }
   });
 }
