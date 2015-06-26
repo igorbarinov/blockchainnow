@@ -37,7 +37,7 @@ e.g. [http://blockchainnow.meteor.com](http://blockchainnow.meteor.com)
 - [Meteor Easy Search](https://github.com/matteodem/meteor-easy-search) Plugin for Meteor
 
 # Links
-- [Blockchain Now](http://blockchain.itsbeta.com) "Blockchain Now" website
+- [Blockchain Now](http://blockchainnow.meteor.com) "Blockchain Now" website
 - [Slides](https://www.slideshare.net/secret/4Cb1dBG2iMlo2q)
 - [Kafka Manager](http://bitcoind.blocknotary.com:9000/) 
 - [Elastic Sample Query](http://search.blocknotary.com:9200/_search?q=txid:d5f2d21453a6f0e67b5c42959c9700853e4c4d46fa7519d1cc58e77369c893f2&pretty=true)
