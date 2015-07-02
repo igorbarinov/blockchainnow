@@ -8,8 +8,13 @@
 
     <script type="text/javascript" src="http://pubnub.github.io/eon/lib/eon.js"></script>
     <link type="text/css" rel="stylesheet" href="http://pubnub.github.io/eon/lib/eon.css" />
+    <script type="text/javascript" src="smoothie.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/2.1.6/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
     <!-- ### /EON -->
+
+
 
 </head>
 
@@ -28,7 +33,12 @@
 <!-- End of Navigation -->
 <br/>
 
+
+
     <div class="container">
+
+
+
 <div class="row">
     <div class="col s12">
         <ul class="tabs">
@@ -42,18 +52,20 @@
     <div id="test1" class="col s12" align="center">
         <br/>
 
-        <div class="row">
+        <!--<div class="row">
             <div class="input-field col s12">
                 <input value="" id="first_name2" type="text" class="validate">
                 <label class="active" for="first_name2">Type any field of the bitcoin transaction:</label>
             </div>
-        </div>
+        </div>-->
+        
+        {{> bitcoinSearch}}
 
         <div class="row">
             <!-- Switch -->
 
 
-        <div class="col s12">
+       <!-- <div class="col s12">
 
           <span class="white-text">
 
@@ -61,7 +73,7 @@
 
           </span>
 
-        </div>
+        </div> -->
 
     </div>
 
@@ -72,6 +84,70 @@
 
     <!-- Charts -->
     <div id="test2" class="col s12">
+
+<center>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title">Realtime transactions outputs</span>
+                            <canvas id="mycanvas" width=800 height="200"></canvas>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</center>
+
+
+
+        <script>
+            Pusher.host = 'slanger1.chain.so'; // our server
+            Pusher.ws_port = 443; // our server's port
+            Pusher.wss_port = 443; // ...
+
+            // create the pusher client connection
+            var pusher = new Pusher('e9f5cc20074501ca7395', { encrypted: true, disabledTransports: ['sockjs'], disableStats: true });
+
+            // subscribe to the channel for DOGE updates (new transactions only)
+            var ticker = pusher.subscribe('blockchain_update_btc');
+
+            ticker.bind('tx_update', function(data) {
+                if (data.type == "tx") {
+                    // update an HTML div or span with the new content, for e.g.: data.value.txid
+                    //console.dir(data);
+                    line1.append(new Date().getTime(), data.value.sent_value)
+                }
+            });
+        </script>
+
+
+
+        <script type="text/javascript">
+
+            // Random data
+            var line1 = new TimeSeries();
+            var line2 = new TimeSeries();
+            setInterval(function() {
+                //line1.append(new Date().getTime(), Math.random());
+                //line2.append(new Date().getTime(), Math.random());
+            }, 1000);
+
+            var smoothie = new SmoothieChart({ grid: { strokeStyle: 'rgb(125, 0, 0)', fillStyle: 'rgb(60, 0, 0)', lineWidth: 1, millisPerLine: 250, verticalSections: 6 } });
+            smoothie.addTimeSeries(line1, { strokeStyle: 'rgb(0, 255, 0)', fillStyle: 'rgba(0, 255, 0, 0.4)', lineWidth: 3 });
+            //smoothie.addTimeSeries(line2, { strokeStyle: 'rgb(255, 0, 255)', fillStyle: 'rgba(255, 0, 255, 0.3)', lineWidth: 3 });
+
+            smoothie.streamTo(document.getElementById("mycanvas"), 1000);
+        </script>
+
+
+
+
+
+
+
 
         <script>
             var channel = "c3-spline" + Math.random();
@@ -120,7 +196,24 @@
             }, 1000);
         </script>
 
-        <div id="chart"></div>
+
+        <center>
+        <div class="row">
+            <div class="col s12">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">More charts</span>
+                        <div id="chart"></div>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </center>
+
+
 
     </div>
 
@@ -150,6 +243,8 @@
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="http://search.blocknotary.com:9200/_search?q=txid:67d6072a2a7b129e1838424b13e0aedcaadba34608b222636d9576edd7e15a7a&pretty=true">Sample Query</a></li>
                     <li><a class="grey-text text-lighten-3" href="http://bitcoind.blocknotary.com:9000/">Kafka Manager</a></li>
+                    <li><a class="grey-text text-lighten-3" href="http://search.blocknotary.com:8080">Spark Monitor</a></li>
+                    <li><a class="grey-text text-lighten-3" href="http://search.blocknotary.com:8088/">iPython Notebook</a></li>
 
                 </ul>
             </div>
@@ -166,32 +261,47 @@
 
 </body>
 
-<template name="searchTpl">
-    <div class="search-input">
-        {{> esInput index="players" placeholder="Search..." }}
+<template name="bitcoinSearch">
+    <div class="row">
+        <div class="input-field col s12">
+            {{> esInput index="livenetnew4" id="search" type="text" class="validate" convertnumber=false }}
+            <label class="active" for="search">Type any field of the bitcoin transaction:</label>
+        </div>
     </div>
 
-    {{#ifEsInputIsEmpty index="players"}}
-        <div>Search for players</div>
-    {{/ifEsInputIsEmpty}}
-
-    {{#ifEsIsSearching index="players"}}
-        <div>Loading...</div>
-    {{else}}
-        <div class="results-wrapper">
-            {{#esEach index="players"}}
-                {{> player}}
-            {{/esEach}}
-        </div>
-
-        {{> esLoadMoreButton index="players"}}
+    {{#ifEsIsSearching index="livenetnew4" id="search" logic="OR" }}
+        <div>Searching...</div>
     {{/ifEsIsSearching}}
 
-    {{#ifEsHasNoResults index="players"}}
-        <div class="no-results">No results found!</div>
-    {{/ifEsHasNoResults}}
+    <div>
+
+       
+    <!-- <div id='result'>{{txsJSON}}</div>-->
+
+    {{#each txsJSON}}
+        <div>{{> tx}}</div>
+    {{/each}}
+
+
+     <!--{{#esEach index="livenetnew4"}}
+            {{> tx}}
+        {{/esEach}}-->
+
+
+        <!--{{> esPagination index="livenetnew4" id="search" }}-->
+    </div>
 </template>
-
-
+       
+<template name="tx">
+    <div class="row">
+        <div class="col s12 m34">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <p>{{txid}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</template>
 
 
