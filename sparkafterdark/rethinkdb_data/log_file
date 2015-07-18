@@ -1,0 +1,267 @@
+2015-07-11T21:14:23.781021694 0.009109s notice: Recursively removing directory /home/ubuntu/databricks/rethinkdb_data/tmp
+2015-07-11T21:14:23.784196145 0.012283s notice: Initializing directory /home/ubuntu/databricks/rethinkdb_data
+2015-07-11T21:14:23.784272337 0.012360s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/ubuntu/databricks/rethinkdb_data' did not already exist or is empty.)
+2015-07-11T21:14:23.784297699 0.012385s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-11T21:14:23.785848194 0.013937s notice: Running on Linux 3.13.0-55-generic x86_64
+2015-07-11T21:14:23.785892870 0.013980s notice: Loading data from directory /home/ubuntu/databricks/rethinkdb_data
+2015-07-11T21:14:23.824938170 0.053026s info: Automatically using cache size of 655 MB
+2015-07-11T21:14:23.825558832 0.053646s notice: Listening for intracluster connections on port 29015
+2015-07-11T21:14:23.827553872 0.055641s notice: Listening for client driver connections on port 28015
+2015-07-11T21:14:23.827626089 0.055713s notice: Listening for administrative HTTP connections on port 8080
+2015-07-11T21:14:23.827629772 0.055717s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-11T21:14:23.827631646 0.055719s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-11T21:14:23.827633429 0.055720s notice: Server ready, "ip_172_31_22_76_5e0" 4982c204-dbee-492b-9028-1157f0c79ce8
+2015-07-11T21:14:53.597675406 29.825763s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2015-07-11T21:14:53.597772537 29.825860s notice: Shutting down client connections...
+2015-07-11T21:14:53.597876983 29.825964s notice: All client connections closed.
+2015-07-11T21:14:53.597879373 29.825966s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-11T21:14:53.598237099 29.826324s notice: Storage engine shut down.
+2015-07-11T21:15:01.529830182 0.003354s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-11T21:15:01.531428568 0.004953s notice: Running on Linux 3.13.0-55-generic x86_64
+2015-07-11T21:15:01.531476396 0.005000s notice: Loading data from directory /home/ubuntu/databricks/rethinkdb_data
+2015-07-11T21:15:01.546456162 0.019980s info: Automatically using cache size of 655 MB
+2015-07-11T21:15:01.548125511 0.021649s notice: Listening for intracluster connections on port 29015
+2015-07-11T21:15:01.548733155 0.022257s notice: Listening for client driver connections on port 28015
+2015-07-11T21:15:01.548903917 0.022427s notice: Listening for administrative HTTP connections on port 8080
+2015-07-11T21:15:01.549783219 0.023307s notice: Listening on addresses: 127.0.0.1, 172.31.22.76, ::1, fe80::ac:cff:fe64:5b11%2
+2015-07-11T21:15:01.549793244 0.023317s notice: Server ready, "ip_172_31_22_76_5e0" 4982c204-dbee-492b-9028-1157f0c79ce8
+2015-07-11T21:15:13.752479153 12.226003s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2015-07-11T21:15:13.752623119 12.226147s notice: Shutting down client connections...
+2015-07-11T21:15:13.752727807 12.226251s notice: All client connections closed.
+2015-07-11T21:15:13.752736259 12.226260s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-11T21:15:13.752997146 12.226521s notice: Storage engine shut down.
+2015-07-11T21:15:14.693213686 0.005170s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-11T21:15:14.694828039 0.006785s notice: Running on Linux 3.13.0-55-generic x86_64
+2015-07-11T21:15:14.694874950 0.006831s notice: Loading data from directory /home/ubuntu/databricks/rethinkdb_data
+2015-07-11T21:15:14.709680917 0.021637s info: Automatically using cache size of 655 MB
+2015-07-11T21:15:14.711403756 0.023360s notice: Listening for intracluster connections on port 29015
+2015-07-11T21:15:14.712029905 0.023986s notice: Listening for client driver connections on port 28015
+2015-07-11T21:15:14.712216785 0.024173s notice: Listening for administrative HTTP connections on port 8080
+2015-07-11T21:15:14.713232951 0.025189s notice: Listening on addresses: 127.0.0.1, 172.31.22.76, ::1, fe80::ac:cff:fe64:5b11%2
+2015-07-11T21:15:14.713241657 0.025197s notice: Server ready, "ip_172_31_22_76_5e0" 4982c204-dbee-492b-9028-1157f0c79ce8
+2015-07-12T17:37:24.607850350 0.008736s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-12T17:37:24.609426639 0.010313s notice: Running on Linux 3.13.0-55-generic x86_64
+2015-07-12T17:37:24.609473084 0.010358s notice: Loading data from directory /home/ubuntu/databricks/rethinkdb_data
+2015-07-12T17:37:24.625899284 0.026784s info: Automatically using cache size of 368 MB
+2015-07-12T17:37:24.626567670 0.027453s notice: Listening for intracluster connections on port 29015
+2015-07-12T17:37:24.627443646 0.028329s notice: Listening for client driver connections on port 28015
+2015-07-12T17:37:24.627535567 0.028421s notice: Listening for administrative HTTP connections on port 8080
+2015-07-12T17:37:24.627538015 0.028423s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-12T17:37:24.627539820 0.028425s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-12T17:37:24.627541681 0.028427s notice: Server ready, "ip_172_31_22_76_5e0" 4982c204-dbee-492b-9028-1157f0c79ce8
+2015-07-12T17:39:45.974382010 141.375267s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2015-07-12T17:39:45.974485112 141.375370s notice: Shutting down client connections...
+2015-07-12T17:39:45.974600177 141.375485s notice: All client connections closed.
+2015-07-12T17:39:45.974606648 141.375491s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-12T17:39:45.977631432 141.378517s notice: Storage engine shut down.
+2015-07-12T17:39:53.428398052 0.004617s notice: Running rethinkdb 2.0.4~0trusty (GCC 4.8.2)...
+2015-07-12T17:39:53.430126501 0.006346s notice: Running on Linux 3.13.0-55-generic x86_64
+2015-07-12T17:39:53.430176044 0.006395s notice: Loading data from directory /home/ubuntu/databricks/rethinkdb_data
+2015-07-12T17:39:53.447250730 0.023469s info: Automatically using cache size of 367 MB
+2015-07-12T17:39:53.449274736 0.025493s notice: Listening for intracluster connections on port 29015
+2015-07-12T17:39:53.450215605 0.026490s notice: Listening for client driver connections on port 28015
+2015-07-12T17:39:53.450630745 0.026849s notice: Listening for administrative HTTP connections on port 8080
+2015-07-12T17:39:53.451465044 0.027684s notice: Listening on addresses: 127.0.0.1, 172.31.22.76, ::1, fe80::ac:cff:fe64:5b11%2
+2015-07-12T17:39:53.451473962 0.027692s notice: Server ready, "ip_172_31_22_76_5e0" 4982c204-dbee-492b-9028-1157f0c79ce8
+2015-07-12T20:59:15.443084485 11962.019303s notice: Removing file /home/ubuntu/databricks/rethinkdb_data/235dccb7-cf60-4d2e-b68e-7bcf70508898
+2015-07-12T22:09:48.430395378 16195.006615s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-12T22:09:48.759892264 16195.336111s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-12T22:09:49.088713336 16195.664932s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-12T22:09:49.382352525 16195.958572s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-12T22:09:49.705484462 16196.281703s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T02:40:06.004410929 32412.580630s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T09:09:52.644992759 55799.221212s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T09:09:53.141084145 55799.717303s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T09:09:53.737306659 55800.313526s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T09:09:54.235927596 55800.812146s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T09:09:54.738179305 55801.314399s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T09:09:55.233465016 55801.809684s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T09:09:55.834761911 55802.410981s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T13:42:14.569962868 72141.146182s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T15:57:09.903454805 80236.479673s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:53:56.974043475 83643.550262s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:53:57.471843711 83644.048063s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:53:57.965909221 83644.542128s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:53:58.464169536 83645.040389s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:53:58.758730465 83645.334949s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:00.936472957 83647.512692s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:02.255527371 83648.831746s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:03.758823898 83650.335043s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:13.962943236 83660.539162s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:22.726589787 83669.302809s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:23.227101175 83669.803320s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:23.674600864 83670.250820s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:33.298211147 83679.874430s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:33.826486092 83680.402705s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:34.337942206 83680.914161s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:35.610086559 83682.186305s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:39.108798821 83685.685018s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:39.408623242 83685.984842s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:39.915806066 83686.492025s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:43.443110852 83690.019330s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T16:54:46.953928286 83693.530147s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T18:38:12.499363023 89899.075582s notice: Someone asked for the nonwhitelisted file "/Ringing.at.your.dorbell!".  If this should be accessible, add it to the static web assets.
+2015-07-13T18:38:13.643555309 89900.219775s notice: Someone asked for the nonwhitelisted file "/Diagnostics.asp".  If this should be accessible, add it to the static web assets.
+2015-07-13T23:59:12.911952828 109159.488172s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T23:59:13.238226531 109159.814446s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T23:59:13.738216859 109160.314436s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T23:59:16.906732423 109163.482952s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T23:59:17.200963653 109163.777183s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T23:59:18.486746201 109165.062965s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T23:59:19.656091826 109166.232311s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-13T23:59:24.621522562 109171.197741s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T00:52:51.248285417 112377.824504s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T10:36:19.987336912 147386.563556s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T11:01:40.199849805 148906.776069s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T12:33:51.368565417 154437.944784s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T14:41:37.670196909 162104.246416s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T14:46:16.829472100 162383.405691s notice: Someone asked for the nonwhitelisted file "/tmUnblock.cgi".  If this should be accessible, add it to the static web assets.
+2015-07-14T15:23:52.488840498 164639.065060s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T18:32:28.636310439 175955.212529s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T18:32:29.113697773 175955.689917s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T18:32:29.407868764 175955.984088s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T18:32:30.702294614 175957.278514s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T18:32:31.575004941 175958.151224s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T18:32:31.960196155 175958.536415s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T18:32:40.658691760 175967.234911s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T18:32:41.036592069 175967.612811s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T18:32:41.438206392 175968.014426s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T18:32:42.782045718 175969.358265s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T18:32:43.077425287 175969.653644s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T21:08:34.482773641 185321.058993s notice: Someone asked for the nonwhitelisted file "/Ringing.at.your.dorbell!".  If this should be accessible, add it to the static web assets.
+2015-07-14T21:08:35.270322133 185321.846541s notice: Someone asked for the nonwhitelisted file "/Diagnostics.asp".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:24.197389182 193710.773621s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:24.494271210 193711.070491s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:27.791539158 193714.367759s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:36.600857184 193723.177076s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:37.900848853 193724.477068s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:38.210187068 193724.786406s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:38.509326579 193725.085545s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:38.803451920 193725.379671s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:39.099235914 193725.675455s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:39.398837701 193725.975057s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:40.263467150 193726.839686s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:40.564046867 193727.140266s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:40.865635673 193727.441855s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:41.729878602 193728.306097s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-14T23:28:42.094949506 193728.671168s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T00:25:42.303336253 197148.879555s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T04:54:44.266629808 213290.842849s notice: Someone asked for the nonwhitelisted file "/Ringing.at.your.dorbell!".  If this should be accessible, add it to the static web assets.
+2015-07-15T04:54:45.810979046 213292.387198s notice: Someone asked for the nonwhitelisted file "/Diagnostics.asp".  If this should be accessible, add it to the static web assets.
+2015-07-15T08:38:18.968856990 226705.545076s notice: Someone asked for the nonwhitelisted file "/Ringing.at.your.dorbell!".  If this should be accessible, add it to the static web assets.
+2015-07-15T08:38:20.274910711 226706.851130s notice: Someone asked for the nonwhitelisted file "/Diagnostics.asp".  If this should be accessible, add it to the static web assets.
+2015-07-15T09:07:28.480287296 228455.056506s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T09:36:03.174876553 230169.751095s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T09:36:05.293644617 230171.869863s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:35.826120554 233562.402339s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:36.127379566 233562.703599s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:36.534092561 233563.110311s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:36.983373938 233563.559593s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:37.276551215 233563.852770s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:37.723762489 233564.299981s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:38.174513936 233564.750733s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:38.470869388 233565.047088s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:38.776251268 233565.352470s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:39.257404177 233565.833623s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:39.712060332 233566.288280s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:40.174009910 233566.750229s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:40.482856013 233567.059075s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:40.792471400 233567.368690s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:41.087778876 233567.663998s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:41.557366967 233568.133586s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:42.043544567 233568.619763s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:42.532977112 233569.109196s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:43.010046601 233569.586265s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:43.304931490 233569.881150s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:43.783528005 233570.359747s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:44.221822932 233570.798042s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:32:53.670161908 233580.246381s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T10:33:02.279891865 233588.856111s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T14:08:10.404807467 246496.981026s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2015-07-15T17:31:33.041064286 258699.617283s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T22:23:00.270915649 276186.847134s notice: Someone asked for the nonwhitelisted file "/robots.txt".  If this should be accessible, add it to the static web assets.
+2015-07-15T22:33:22.297891748 276808.874111s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T22:33:25.915184779 276812.491404s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T22:33:26.717456856 276813.293676s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T22:33:27.552430223 276814.128649s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T22:33:28.372851208 276814.949071s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-15T22:33:29.146159460 276815.722378s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T02:45:42.443345944 291949.019565s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T02:45:44.235687169 291950.811906s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T03:23:13.910738335 294200.486957s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T09:15:28.018977002 315334.595196s notice: Someone asked for the nonwhitelisted file "/robots.txt".  If this should be accessible, add it to the static web assets.
+2015-07-16T09:15:28.061698647 315334.637917s notice: Someone asked for the nonwhitelisted file "/sitemap.xml".  If this should be accessible, add it to the static web assets.
+2015-07-16T10:54:12.387256888 321258.963476s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:02.659946503 325389.236165s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:03.205961773 325389.782181s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:03.748545962 325390.324765s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:07.281815509 325393.858034s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:08.494013428 325395.070232s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:08.854421028 325395.430640s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:09.195684736 325395.771903s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:09.751481921 325396.327701s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:10.042506075 325396.618725s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:10.341728958 325396.917948s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:13.534540229 325400.110759s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:14.071313460 325400.647533s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:14.616523878 325401.192743s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:14.971880014 325401.548099s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:15.433957527 325402.010176s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:15.874674056 325402.450893s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:16.321323000 325402.897542s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:16.752810473 325403.329029s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:17.106659205 325403.682878s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:17.542265627 325404.118484s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:19.045852168 325405.622071s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:19.494763538 325406.070983s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:19.896253306 325406.472472s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:03:20.256059186 325406.832278s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T12:53:33.076665338 328419.652884s notice: Someone asked for the nonwhitelisted file "/tmUnblock.cgi".  If this should be accessible, add it to the static web assets.
+2015-07-16T14:45:28.662030959 335135.238250s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T16:57:26.145787759 343052.722007s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T17:21:27.753305846 344494.329525s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T20:17:45.427118368 355072.003337s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T20:17:45.782845793 355072.359065s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T20:17:46.137227193 355072.713446s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T20:17:46.649128144 355073.225347s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-16T20:17:47.001969903 355073.578189s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-17T05:47:34.590145741 389261.166365s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-17T05:47:53.074174466 389279.650393s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-17T08:39:21.525097640 399568.101316s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-17T10:03:55.698096120 404642.274315s notice: Someone asked for the nonwhitelisted file "/Ringing.at.your.dorbell!".  If this should be accessible, add it to the static web assets.
+2015-07-17T10:03:56.598992364 404643.175211s notice: Someone asked for the nonwhitelisted file "/Diagnostics.asp".  If this should be accessible, add it to the static web assets.
+2015-07-17T10:52:26.613996971 407553.190216s notice: Someone asked for the nonwhitelisted file "/tmUnblock.cgi".  If this should be accessible, add it to the static web assets.
+2015-07-17T16:51:34.296547354 429100.872767s notice: Someone asked for the nonwhitelisted file "/robots.txt".  If this should be accessible, add it to the static web assets.
+2015-07-17T21:43:13.556537452 446600.132756s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-17T21:43:20.993765238 446607.569984s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-17T23:20:16.065706224 452422.641925s notice: Someone asked for the nonwhitelisted file "/Ringing.at.your.dorbell!".  If this should be accessible, add it to the static web assets.
+2015-07-17T23:20:17.650156832 452424.226376s notice: Someone asked for the nonwhitelisted file "/Diagnostics.asp".  If this should be accessible, add it to the static web assets.
+2015-07-18T00:53:56.589256440 458043.165475s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T03:04:54.542783809 465901.119003s notice: Someone asked for the nonwhitelisted file "/robots.txt".  If this should be accessible, add it to the static web assets.
+2015-07-18T14:22:19.593981755 506546.170201s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:33.685266669 515620.261485s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:34.059496391 515620.635715s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:34.593426517 515621.169646s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:34.958050558 515621.534269s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:35.342333204 515621.918552s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:35.687951503 515622.264170s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:36.031900544 515622.608119s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:36.366320856 515622.942540s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:36.696865286 515623.273084s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:37.228372173 515623.804591s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:37.575166691 515624.151386s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:38.122792485 515624.699011s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:38.646753581 515625.222972s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:39.183850096 515625.760069s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:39.847580904 515626.423800s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:40.177196960 515626.753416s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:40.506218692 515627.082438s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:44.039489080 515630.615708s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:44.391122257 515630.967341s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:44.906056457 515631.482276s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:45.422127212 515631.998346s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:45.950281383 515632.526500s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:46.478285171 515633.054504s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T16:53:47.000458366 515633.576678s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T22:36:09.772866629 536176.349086s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2015-07-18T22:36:23.005569518 536189.581789s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
